@@ -2,7 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
-import profilePicture from '../../public/images/profile/qa-pic-2.png';
+import profilePicture from '../../public/images/profile/index-pic.png';
 import flagBR from '../../public/images/brazil.png';
 import flagEN from '../../public/images/us.png';
 import AnimatedText from '@/components/AnimatedText';

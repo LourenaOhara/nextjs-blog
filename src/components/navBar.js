@@ -68,14 +68,14 @@ const NavBar = () => {
                 </nav>
 
                 <nav className='flex items-center justify-center flex-wrap'>
-                    <motion.a href="https://github.com/LourenaOhara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>< GithubIcon /></motion.a>
-                    <motion.a href="https://www.linkedin.com/in/lourena-ohara/" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>< LinkedInIcon /></motion.a>
-                    <motion.a href="https://medium.com/@lourenaohara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3'>< MediumIcon /></motion.a>
+                    <motion.a href="https://github.com/LourenaOhara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-7'>< GithubIcon /></motion.a>
+                    <motion.a href="https://medium.com/@lourenaohara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3'>< MediumIcon /></motion.a>
+                    <motion.a href="https://www.linkedin.com/in/lourena-ohara/" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-7 ml-3'>< LinkedInIcon /></motion.a>
 
                     <button
                         onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                        className={`ml-3 flex items-center justify-center rounded-full p-1
-                        ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+                        className={`w-6 ml-8 flex items-center justify-center rounded-full p-1
+                        ${mode === "light" ? "bg-yellow-500 text-light" : "bg-light text-dark"}
                         `
                         }
                     >
@@ -105,7 +105,7 @@ const NavBar = () => {
 
                 <nav className='flex items-center justify-center flex-wrap mt-1'>
                     <motion.a href="https://github.com/LourenaOhara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 rounded-full dark:bg-dark sm:mx-1'>< GithubIcon /></motion.a>
-                    <motion.a href="https://medium.com/@lourenaohara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 rounded-full dark:bg-light sm:mx-1'>< MediumIcon /></motion.a>
+                    <motion.a href="https://medium.com/@lourenaohara" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mr-3 rounded-full dark:bg-dark sm:mx-1'>< MediumIcon /></motion.a>
                     <motion.a href="https://www.linkedin.com/in/lourena-ohara/" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className='w-6 mx-3 sm:mx-1'>< LinkedInIcon /></motion.a>
 
 

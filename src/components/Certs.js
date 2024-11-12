@@ -18,7 +18,7 @@ const Data = ({ nome, empresa, link, data, descricao }) => {
                     <p className="font-bold text-emerald-900 dark:text-primaryDark"><u>{empresa}</u></p>
                 </Link>
                 <p className="capitalize text-dark font-semibold dark:text-light">{data}</p>
-                <p className="font-medium w-full"><i>{descricao}</i></p>
+                <p className="font-medium w-full mt-2"><i>{descricao}</i></p>
             </div>
 
 

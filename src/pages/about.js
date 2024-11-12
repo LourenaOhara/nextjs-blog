@@ -18,37 +18,32 @@ const about = () => {
                         Sobre Mim
                     </h2>
                     <div className="grid w-full grid-cols-6 gap-16">
-                        <div className="col-span-3 flex flex-col items-start justify-start">
+                        <div className="col-span-3 flex flex-col items-start justify-start text-justify">
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75"> Biografia </h2>
                             <p className="font-medium">
-                                Oi! Me chamo Lourena (Lóris é meu apelido corporativo, como fui batizada
-                                pela minha mentora), moro em Belo Horizonte, Minas Gerais e atualmente atuo
-                                como QA Sênior voluntário na Zup Innovation. Contribuo com planejamento,
-                                criação e execução de testes manuais e automatizados. Atuo também na
-                                resolução de bugs, refinamento de regras de negócio e execução de pipelines
-                                de testes.
+                                Oi! Me chamo Lourena (Lóris é meu apelido corporativo), moro em Belo Horizonte, 
+                                Minas Gerais e atualmente sou QA Sênior voluntário na Zup Innovation.<br/> Contribuo 
+                                com planejamento, criação e execução de testes manuais e automatizados, resolução
+                                de bugs, refinamento de regras de negócio e execução de pipelines de testes.
                             </p>
-                            <p className="font-medium">
-                                Tive a oportunidade de atuar em uma oportunidade passada, como Líder Técnico
-                                de QA. Auxiliava um pouco mais de 20 Analistas de Qualidade com diferentes
-                                senioridades e atividades da área. Quero muito poder novamente atuar em um
-                                cargo de liderança dentro da Tecnologia da Informação.
+                            <p className="my-4 font-medium">
+                                Em uma oportunidade passada, atuei como Líder Técnico de QA. Auxiliei mais de 20 
+                                Analistas de Qualidade com diferentes senioridades e atividades da área.
 
                             </p>
                             <p className="my-4 font-medium">
                                 Ao longo dos meu anos de atuação, desenvolvi e me aperfeiçoei em algumas
-                                categorias de testes. Habilidades em testes de api, testes de performance
-                                e também em testes mobile. Atuei como especialista em Performance durante
-                                algum tempo da minha carreira.
+                                categorias de testes. Testes de api, testes de performance e também em testes
+                                mobile. Atuei como especialista em Performance durante algum tempo da minha carreira.
+                            </p>
+                            <p className="my-4 font-medium">
+                                Além de tecnologia, sou Chef de cozinha, praticante de Kickboxing - com graduação na 
+                                kruang roxa. Sou apaixonada por atividades físicas, hoje me dedico a musculação e ciclismo 
+                                na rua.<br/>
+                                Gosto muito de jogos de videogame, ler livros e escutar música.
                             </p>
                             <p className="font-medium">
-                                Além de tecnologia, sou Chef de cozinha, praticante (temporariamente em hiato)
-                                de Kickboxing - com graduação na kruang roxa. Sou apaixonada por atividades
-                                físicas, hoje me dedico a musculação e ciclismo na rua.
-                            </p>
-                            <p className="font-medium">
-                                Gosto muito de jogos de videogame, ler livros e escutar músicas. Espero em
-                                breve concretizar um projeto que envolve um dos meus hobbies e um podcast!
+                                
                             </p>
                         </div>
                         <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark
