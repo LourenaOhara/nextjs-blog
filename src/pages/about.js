@@ -22,7 +22,7 @@ const about = () => {
                             <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75"> Biografia </h2>
                             <p className="font-medium">
                                 Oi! Me chamo Lourena (Lóris é meu apelido corporativo), moro em Belo Horizonte, 
-                                Minas Gerais e atualmente sou QA Sênior voluntário na Zup Innovation.<br/> Contribuo 
+                                Minas Gerais e atualmente sou QA Sênior na Zup Innovation.<br/> Contribuo 
                                 com planejamento, criação e execução de testes manuais e automatizados, resolução
                                 de bugs, refinamento de regras de negócio e execução de pipelines de testes.
                             </p>
